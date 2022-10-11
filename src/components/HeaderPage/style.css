@@ -1,0 +1,35 @@
+.divHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 1.25rem;
+}
+
+.divHeader>button {
+    width: 40%;
+    padding: 0.25rem;
+    background-color: var(--color-grey-2);
+    border: 0.125rem solid var(--color-grey-2);
+    border-radius: 0.5rem;
+    color: var(--color-grey-3);
+    cursor: pointer;
+}
+
+.divHeader>button:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    border: 0.125rem solid var(--color-primary);
+}
+
+
+@media (min-width: 786px) {
+    .divHeader {
+        padding: 1.75rem 6rem;
+    }
+
+    .divHeader>button {
+        width: 10%;
+
+    }
+}
